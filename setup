@@ -4,7 +4,7 @@
 sudo apt-get install nano screen terminator python3-pip python3-dev python3-opencv python3-wxgtk4.0 python3-matplotlib python3-lxml python3-pygame
 
 # install python modules
-/usr/bin/python3 -m pip install PyYAML MAVProxy dronekit
+/usr/bin/python3 -m pip install --break-system-packages PyYAML MAVProxy dronekit
 
 # add path to bashrc
 echo "export PATH=$PATH:$HOME/.local/bin" >> ~/.bashrc
